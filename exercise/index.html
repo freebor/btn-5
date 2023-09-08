@@ -3,33 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>quick intro</title>
 </head>
 <body>
-    <div>
-        <input  id="num1" type="text">
-        <input  id="num2" type="text">
-        <button id="sum">+</button>
-        <button id="sub">-</button>
-        <p id="answer"></p>
-    </div>
-
-    <script>
-        let answer = document.querySelector('#answer')
-        let sumBtn = document.querySelector('#sum');
-        let subBtn = document.querySelector('#sub');
-        let num1 = document.getElementById('num1');
-        let num2 = document.getElementById('num2');
-
-        sumBtn.addEventListener("click",()=>{
-            let result = sum(Number(num1.value), Number(num2.value));
-        });
-        subBtn.addEventListener("click",()=>{
-            let result = sub(Number(num1.value), Number(num2.value));
-        });
-
-        let sum = (a,b) => a + b ;
-        let sub = (a,b) => a - b ;
-    </script>
+    <a href="about.html">about.html</a>
+    <section>
+        <p>author</p>
+        <h2>page heading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+    <section>
+        <p>author</p>
+        <h2>page heading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+    <section>
+        <p>author</p>
+        <h2>page heading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+    <section>
+        <p>author</p>
+        <h2>page heading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+    <script src="exercise.js"></script>
 </body>
 </html>
