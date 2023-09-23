@@ -125,10 +125,10 @@ i{
     gap: 25px;
 
 }
-.page-body .blog h1{
+.page-body .blog #text-header{
     margin-top: -5px;
-    font-size: 2.125rem;
-    width: 85%;
+    font-size: 1.6rem;
+    width: 100%;
     font-weight: 700;
 }
 .page-body .blog .narrate{
